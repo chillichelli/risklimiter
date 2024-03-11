@@ -1,7 +1,8 @@
 import { RestClientV5 } from "bybit-api";
+import { BYBIT_KEY, BYBIT_SECRET } from "../constants";
 
 export const client = new RestClientV5({
-  key: "zYtqV1l3hnNyv3c5fD",
-  secret: "jbpcrhfZfqX35RcXVWA2NqwhoTiDStk86BjP",
+  key: BYBIT_KEY,
+  secret: BYBIT_SECRET,
   enable_time_sync: true,
 });
