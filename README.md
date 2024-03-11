@@ -5,3 +5,9 @@
 pnpm install
 pnpm dev
 ```
+
+### Run following command to adjust leverage for all pairs
+```
+pnpm install
+pnpm leverage
+```
